@@ -8,7 +8,18 @@ const myPet = {
         "Rosita Bonita",
         "Ol Graybeard"
     ],
-    age: "2 years"
+    age: "2 years",
+    bark: function (passersby) {
+        window.alert(`WOOF! WOOF! at ${passersby}`)
+    },
+    run: function () {
+        window.alert('zoo0oo0mies')
+    },
+    sleep: function () {
+        window.alert('snuggle time')
+    },
 }
 
-console.log(myPet);
+myPet.bark()
+myPet.run()
+myPet.sleep()
